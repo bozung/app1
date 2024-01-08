@@ -1,8 +1,15 @@
 import React from "react";
 import { Content,Footer,Header } from "./func-components";
+import './style.css'
+import Calendar from "./class-props";
 
-function App(){
+export function App(){
   return (
-    [<Header/>,<Content/>,<Footer/>]
+    <>
+    <Header/>
+    <p><center><Calendar/></center></p>
+    <Content/>
+    <Footer/>
+    </>
   )
 }
