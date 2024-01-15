@@ -1,15 +1,8 @@
-import React from "react";
-import { Content,Footer,Header } from "./func-components";
-import './style.css'
-import Calendar from "./class-props";
+import React from 'react'
+import Button from './class-components';
 
-export function App(){
-  return (
-    <>
-    <Header/>
-    <p><center><Calendar/></center></p>
-    <Content/>
-    <Footer/>
-    </>
-  )
+function App() {
+  return <Button/>
 }
+
+export default App;
