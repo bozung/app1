@@ -1,6 +1,11 @@
 import React from "react";
-import RefsFunc from "./refs-func";
-
-export default function App() {
-  return <RefsFunc />;
+import RefsTable from "./refs-array";
+function App() {
+  return (
+    <>
+      <RefsTable />
+    </>
+  );
 }
+
+export default App;
