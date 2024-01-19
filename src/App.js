@@ -1,9 +1,6 @@
-import React from 'react'
-import Button from './class-components';
-import { EventData2 } from './event-data';
+import React from "react";
+import RefsFunc from "./refs-func";
 
-function App() {
-  return <EventData2/>
+export default function App() {
+  return <RefsFunc />;
 }
-
-export default App;
